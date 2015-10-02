@@ -40,7 +40,7 @@ else{
   document.getElementById("payment").innerHTML = "$" + 0;
 }
   
-document.getElementById("avgPayment").innerHTML = "The average 2014 alumni would have had a monthly payment of $16.23."
+document.getElementById("avgPayment").innerHTML = "The average 2014 graduates who borrowed would have had a monthly payment of $16.23."
   
 //Total amount to be paid back
 //if the amt to be paid back is less than/equal to the loan + interest, show how much is left to be paid back
