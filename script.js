@@ -60,7 +60,7 @@ if (allPay <= (loan +(loan *(interest *.01)))){   document.getElementById("allPa
 document.getElementById("leftoverText").innerHTML = "Amount to be forgiven after 20 years" ;
   
 if (leftover >= 0){
-document.getElementById("leftover").innerHTML = "$" + addCommas(leftover);
+document.getElementById("leftover").innerHTML = "$" + addCommas((leftover +(leftover * (interest * .01))));
   
   if (payment <= 0)
 document.getElementById("leftover").innerHTML = "$" + 0;
