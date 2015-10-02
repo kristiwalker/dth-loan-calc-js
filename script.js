@@ -74,8 +74,8 @@ document.getElementById("leftover").innerHTML = "$" + 0;
 
 //jumper
 
-$("#button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#paymentText").offset().top
-    }, 2000);
-});
+//$("#button").click(function() {
+    //$('html, body').animate({
+        //scrollTop: $("#paymentText").offset().top
+    //}, 2000);
+//});
