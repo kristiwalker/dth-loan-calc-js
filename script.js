@@ -72,3 +72,16 @@ document.getElementById("leftover").innerHTML = "$" + 0;
   
 }
 
+//jumper
+
+$(document).ready(function() {
+    $(".jumper").on("click", function( e ) {
+
+        e.preventDefault();
+
+        $("body, html").animate({ 
+            scrollTop: $( $(this).attr('paymentText') ).offset().top 
+        }, 600);
+
+    });
+});
